@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include <"NucleoSim/Include/Isimulador.h">
+#include <"Sim-proyect.sln\Include/Isimulador.cpp">
 
 
 class SimuladorDemo : public ISIMULADOR {

@@ -1,12 +1,13 @@
 
 //#include <iostream>
-#include <windows.h>
-#include <"NucleoSim/Include/Isimulador.cpp">
-#include <"NucleoSim/SimDemo/SimuladorDemo.cpp">
-#include <"NucleoSim/SimDemo/src/GestorModulos.cpp">
+//#include <windows.cpp>
+#include <"Sim-proyect.sln\Include\Isimulador.cpp">
+#include <"Sim-proyect.sln\SimDemo\SimuladorDemo.cpp">
+#include <"Sim-proyect.sln\src\GestorModulos.cpp">
+//#include <"Sim-proyect.sln\src\main.cpp">
 
 
-int main(int argc, char* argv[]) {}
+int main(int argc, char* argv[]) {
     // Load the DLL
     HINSTANCE hinstLib = LoadLibrary(TEXT("NucleoSim/Modules/SimuladorDemo.dll"));
     if (hinstLib == NULL) {
